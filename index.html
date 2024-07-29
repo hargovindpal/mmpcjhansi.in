@@ -263,12 +263,12 @@
    <div class="home3-banner">
       <div class="h3-banner-cap">
          <div class="container">
-            <div class="row">
-               <div class="col-md-8 col-sm-7">
-                  <h1 style="font-size: 45px;"> Shape Your <strong class="red">Future</strong>
+            <div class="row flex-row-2">
+               <div class="col-md-8 col-sm-7 overlay">
+                  <h1> Shape Your <strong class="red">Future</strong>
                        in Healthcare at</h1>
-                     <p><strong style="color: #ff8803; font-size: 30px;">Mangal Maitri Paramedical College, Jhansi</strong></p>
-                     <p style="margin-top:50px"> (<strong style="color: #ff8803;">Offering </strong>  comprehensive courses in GNM, OT-Tech, and DMLT)
+                     <h3><strong style="color: #ff8803;">Mangal Maitri Paramedical College, Jhansi</strong></h3>
+                     <p > (<strong style="color: #ff8803;">Offering </strong>  comprehensive courses in GNM, OT-Tech, and DMLT)
                   </p>
                </div>
                <div class="col-md-4 col-sm-5" >
@@ -323,8 +323,32 @@
                <div class="col-sm-8 col-xs-12">
                   <h2 class="text-center"><i class="fas fa-graduation-cap" style="color: #fa394a;"></i></h2>
                   <h3 class="mb-3 text-center">Apply Now</h3>
-                  <div class="npf_wgts" data-height="462px" data-w="02deb2689fbf21825c9bb61432654297"
-                     style="margin-top: 20px !important;"></div>
+                  <form class="enquiry-form" action="https://api.web3forms.com/submit" method="POST">
+                     <input type="hidden" name="access_key" value="486fdcd2-aa19-4ffa-96e6-131d56d191dc">
+                     
+                  <div class="formGroup">
+                     <label for="name">Name:</label>
+                     <input type="text" name="name" placeholder="Enter Your Name" required>
+                  </div>
+                  <div class="formGroup">
+                     <label for="email">Email:</label>
+                     <input type="email" name="email" placeholder="Enter Your Email" required>
+                  </div>
+                  <div class="formGroup">
+                     <label for="contact">Contact:</label>
+                     <input type="number" name="contact" placeholder="Enter Your Contact" required>
+                  </div>
+                     <div class="formGroup">
+                        <label for="message">Message:</label>
+                     <textarea type="text" name="message" placeholder="Enter Your Message Here......"></textarea>
+                     </div>
+                     <!-- Honeypot Spam Protection -->
+<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+         
+<!-- Custom Confirmation / Success Page -->
+<!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                     <button type="submit" class="btn-style-1">Submit</button>
+                  </form>
                </div>
             </div>
             <div class="row">

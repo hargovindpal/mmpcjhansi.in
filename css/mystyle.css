@@ -53,6 +53,12 @@
     flex-wrap: wrap;
     row-gap: 20px;
 }
+.flex-row-2 {
+    padding-left:-40px !important;
+    display: flex;
+    justify-content: center;
+    
+}
 
 .triangle-down {
     display: flex;
@@ -252,6 +258,22 @@
     text-align: justify;
     line-height: 20px;
 }
+.overlay {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left:-40px;
+}
+.overlay h1{
+    font-size: 50px;
+}
+.overlay h3{
+    font-size: 40px;
+}
+.overlay p{
+    margin-top:50px;
+    font-size: 25px;
+}
 
 @media screen and (max-width: 767px) {
 
@@ -263,6 +285,25 @@
 
     .inside-container .facility {
         width: 100%;
+    }
+    .overlay {
+        margin-left:0px;
+        margin-top:-50px !important;
+        width: 90%;
+    }
+    .overlay h1{
+        font-size: 15px;
+    }
+    .overlay h3{
+        font-size: 12px;
+    }
+    .overlay p{
+        margin-top:10px;
+        font-size: 8px;
+    }
+    .col-sm-8 h3{
+        font-size: 18px !important;
+        font-weight: 600;
     }
 
 }
