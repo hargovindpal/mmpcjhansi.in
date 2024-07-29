@@ -1733,7 +1733,7 @@ Home 1 Footer Start
 
 .widget address ul {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     list-style: none;
 }
 
@@ -1743,6 +1743,24 @@ Home 1 Footer Start
     padding-left: 26px;
     position: relative;
 }
+address ul li {
+    color: #fff;
+    margin-bottom: 5px;
+    padding-left: 26px !important;
+    position: relative;
+}
+address ul li i {
+    position: relative !important;
+    left: 0px !important;
+    top:0px !important;
+  
+}
+address ul li i a{
+    position: relative !important;
+    left: 10px !important;
+  
+}
+
 
 .widget address ul li i {
     position: absolute;
@@ -4561,6 +4579,8 @@ Contact Page Start
 }
 
 ul.social-links {
+    display: flex;
+    column-gap: 10px;
     margin: 10px 0 0;
     padding: 0 0 0 25px;
     list-style: none;
