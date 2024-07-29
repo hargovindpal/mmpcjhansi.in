@@ -23,6 +23,7 @@
    <link rel="stylesheet" href="js/rev-slider/css/navigation.css" type='text/css' media='all' />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
    <link rel="stylesheet" href="css/mystyle.css" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +32,6 @@
 
    <!--Header Start-->
    <header class="header-style-3">
-
       <div class="header-top">
          <div class="row bg-blue txt-white pd-left-20">
             <div class="col-md-4 col-sm-2">
@@ -99,8 +99,8 @@
                            aria-expanded="false">Message</a>
                         <ul class="dropdown-menu">
                            <li><a href="trusteeMessage.html">Trustee’s Message</a></li>
-                           <li><a href="princiapalMessage.html">Principal’s Message</a></li>
-                           <li><a href="registrarMessage.html">Registrar’s Message </a></li>
+                           <li><a href="#">Principal’s Message</a></li>
+                           <li><a href="#">Registrar’s Message </a></li>
                         </ul>
                      </li>
 
@@ -131,16 +131,16 @@
                            aria-expanded="false">Academics
                            <!-- <span class="caret"></span> --></a>
                         <ul class="dropdown-menu">
-                           <li><a href="holidayslist.html">Holiday’s list</a></li>
-                           <li><a href="admissioncriteria.html">Admission criteria </a> </li>
-                           <li><a href="affliation&curriculum.html">Affiliation & curriculum</a> </li>
-                           <li><a href="feestructure.html">College fee structure</a> </li>
-                           <li><a href="uniform.html">College uniform</a> </li>
-                           <li><a href="faculties.html">Faculties</a> </li>
+                           <li><a href="#">Holiday’s list</a></li>
+                           <li><a href="#">Admission criteria </a> </li>
+                           <li><a href="#">Affiliation & curriculum</a> </li>
+                           <li><a href="#">College fee structure</a> </li>
+                           <li><a href="#">College uniform</a> </li>
+                           <li><a href="#">Faculties</a> </li>
                         </ul>
                      </li>
                      <li><a href="career.html">Career </a></li>
-                     <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="#">Gallery</a></li>
                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">Contact Us
@@ -274,7 +274,7 @@
                      accepted)
                   </p>
                </div>
-               <div class="col-md-4 col-sm-5">
+               <div class="col-md-4 col-sm-5" >
                   <div class="search-form">
                      <h2 class="text-center"><i class="fas fa-graduation-cap" style="color: #fa394a;"></i></h2>
                      <h3 class="mb-3 text-center">Apply Now</h3>
@@ -620,12 +620,14 @@
    <!--Footer End-->
    <!--Wrapper End-->
    <!-- Js Files Start Here -->
+   
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
    <script src="js/owl.carousel.min.js"></script>
    <script src="js/imagesloaded.pkgd.js"></script>
    <script src="js/isotope.pkgd.min.js"></script>
    <script src="js/custom.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <!--Rev Slider Start-->
    <script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.tools.min.js"></script>
    <script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.revolution.min.js"></script>
@@ -639,7 +641,9 @@
    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
    <script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
-
+   <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
