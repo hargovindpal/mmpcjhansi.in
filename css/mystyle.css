@@ -369,6 +369,10 @@ h2 {
     border: 1px solid #ccc;
 
 }
+.main-content .sitemap li:hover {
+    background: none !important;
+    cursor: pointer;
+}
 
 .sitemap>li>a {
     font-weight: bold;
@@ -387,9 +391,11 @@ h2 {
 
 .sitemap li ul li {
     margin-bottom: 5px;
+
 }
 
 .sitemap li ul li a {
+
     color: #18254a;
     text-decoration: none;
     padding-left: 10px;
@@ -398,6 +404,11 @@ h2 {
 .sitemap li ul li a:hover {
     text-decoration: underline;
     color: #fa394a;
+ 
+}
+.sitemap ul:hover  ul{
+
+    background-color: none !important;
 }
 
 
