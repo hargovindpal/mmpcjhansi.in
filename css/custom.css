@@ -3627,7 +3627,7 @@ ul.header-left a:hover,
     color: #fff;
     font-weight: 400;
     line-height: 70px;
-    margin: 65px 0 20px;
+    margin-top: 60px;
 }
 
 .h3-banner-cap h1 span {
@@ -3638,14 +3638,14 @@ ul.header-left a:hover,
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    margin-top:10px;
     font-family: 'Poppins', sans-serif;
-    line-height: 33px;
 }
 
 .h3-banner-cap .search-form {
     background: #f4eee5;
     border-radius: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
     width: 100%;
 }
 
