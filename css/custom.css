@@ -4545,7 +4545,7 @@ Contact Page Start
 }
 
 .contact-bg {
-    background: url(../images/contact-addbg.jpg) no-repeat;
+    background: url(../images/newsletterbg.jpg) no-repeat;
     width: 100%;
     float: left;
     background-size: cover;
@@ -4553,6 +4553,8 @@ Contact Page Start
 }
 
 .contact-bg h3 {
+    width: 100%;
+    text-align: center;
     color: #fff;
     font-weight: 600;
     margin: 0 0 22px;
@@ -4570,6 +4572,10 @@ Contact Page Start
     font-size: 16px;
     position: relative;
     padding-left: 30px;
+}
+.contact-bg address ul li a{
+    
+    color: #fff;
 }
 
 .contact-bg address ul li i {
